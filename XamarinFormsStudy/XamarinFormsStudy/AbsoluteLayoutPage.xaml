@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XamarinFormsStudy;assembly=XamarinFormsStudy"
+             x:Class="XamarinFormsStudy.AbsoluteLayoutPage">
+    <ContentPage.Content>
+        <AbsoluteLayout Padding="15">
+            <Image AbsoluteLayout.LayoutFlags="PositionProportional" AbsoluteLayout.LayoutBounds="0.5, 0, 100, 100" Rotation="30" Source="{local:ImageResource XamarinFormsStudy.bottom.png}" />
+            <Image AbsoluteLayout.LayoutFlags="PositionProportional" AbsoluteLayout.LayoutBounds="0.5, 0, 100, 100" Rotation="60" Source="{local:ImageResource XamarinFormsStudy.middle.png}" />
+            <Image AbsoluteLayout.LayoutFlags="PositionProportional" AbsoluteLayout.LayoutBounds="0.5, 0, 100, 100" Source="{local:ImageResource XamarinFormsStudy.cover.png}" />
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>
