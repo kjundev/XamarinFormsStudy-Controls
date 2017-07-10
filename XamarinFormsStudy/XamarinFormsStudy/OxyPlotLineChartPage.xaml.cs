@@ -60,7 +60,7 @@ namespace XamarinFormsStudy
             // Y 축은 값입니다.
             model.Axes.Add(new LinearAxis
             {
-                Title = "만원",
+                Title = "값",
                 Position = AxisPosition.Left
             });
 

@@ -13,7 +13,7 @@ namespace XamarinFormsStudy
         {
             InitializeComponent();
 
-            MainPage = new XamarinFormsStudy.ListViewPage();
+            MainPage = new XamarinFormsStudy.OxyPlotLineChartPage();
         }
 
         protected override void OnStart()
