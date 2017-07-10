@@ -13,7 +13,7 @@ namespace XamarinFormsStudy
         {
             InitializeComponent();
 
-            MainPage = new XamarinFormsStudy.AbsoluteLayoutPage();
+            MainPage = new XamarinFormsStudy.XplotPage();
         }
 
         protected override void OnStart()
