@@ -75,7 +75,7 @@ namespace XamarinFormsStudy
                 pointAnnotation.Y = i.Value;
                 pointAnnotation.TextVerticalAlignment = VerticalAlignment.Top;
                 pointAnnotation.TextHorizontalAlignment = HorizontalAlignment.Center;
-                pointAnnotation.Text = (i.Value).ToString("#.00");
+                pointAnnotation.Text = (i.Value).ToString("0.00");
                 // 실제 데이터 값을 포인트에 add 합니다.
                 Points.Add(new DataPoint(TimeSpanAxis.ToDouble(i.Key), i.Value));
                 // 해당 포인트에 대한 라벨표시값도 추가합니다.
