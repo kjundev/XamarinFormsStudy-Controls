@@ -13,12 +13,12 @@ using Xamarin.Forms.Xaml;
 namespace XamarinFormsStudy
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class XplotPage : ContentPage
+    public partial class OxyPlotPage : ContentPage
     {
-        public XplotPage()
+        public OxyPlotPage()
         {
             InitializeComponent();
-            CreateBarChart(false,"Oxy PlotChart");
+            CreateBarChart(false,"OxyPlot BarChart");
         }
 
         private void CreateBarChart(bool stacked, string title)

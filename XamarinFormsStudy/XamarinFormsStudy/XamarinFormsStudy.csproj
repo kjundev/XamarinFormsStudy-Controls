@@ -45,6 +45,9 @@
     <Compile Include="GridPage.xaml.cs">
       <DependentUpon>GridPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ListViewPage.xaml.cs">
+      <DependentUpon>ListViewPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -73,8 +76,11 @@
     <Compile Include="StackLayoutPage.xaml.cs">
       <DependentUpon>StackLayoutPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="XplotPage.xaml.cs">
-      <DependentUpon>XplotPage.xaml</DependentUpon>
+    <Compile Include="OxyPlotLineChartPage.xaml.cs">
+      <DependentUpon>OxyPlotLineChartPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OxyPlotPage.xaml.cs">
+      <DependentUpon>OxyPlotPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -165,7 +171,19 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="XplotPage.xaml">
+    <EmbeddedResource Include="OxyPlotPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ListViewPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="OxyPlotLineChartPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

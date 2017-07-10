@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:oxy="clr-namespace:OxyPlot.Xamarin.Forms;assembly=OxyPlot.Xamarin.Forms"
-             x:Class="XamarinFormsStudy.XplotPage">
+             x:Class="XamarinFormsStudy.OxyPlotPage">
         <Grid>
             <oxy:PlotView x:Name ="PlotChart"
                       VerticalOptions="Center"
