@@ -12,8 +12,7 @@ namespace XamarinFormsStudy
         public App()
         {
             InitializeComponent();
-
-            MainPage = new XamarinFormsStudy.OxyPlotLineChartPage();
+            MainPage = new SQLiteSamplePage().GetSampleContentPage();
         }
 
         protected override void OnStart()
