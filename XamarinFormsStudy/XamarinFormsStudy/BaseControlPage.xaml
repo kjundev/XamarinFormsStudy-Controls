@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinFormsStudy.BaseControlPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <ProgressBar x:Name="progressBar"/>
+            <ActivityIndicator x:Name="activityIndicator" Color ="#80000000" IsRunning="True"/>
+            <Label Text="label" />
+            <SearchBar x:Name="searchBar" SearchButtonPressed="searchBar_SearchButtonPressed" />
+            <Button Text="button" Clicked="Button_Clicked"/>
+            <Entry x:Name="entry" BackgroundColor="AliceBlue"/>
+            <Editor x:Name="editor" VerticalOptions="FillAndExpand" BackgroundColor="AliceBlue"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

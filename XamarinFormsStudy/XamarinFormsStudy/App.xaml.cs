@@ -12,7 +12,7 @@ namespace XamarinFormsStudy
         public App()
         {
             InitializeComponent();
-            MainPage = new SQLiteSamplePage().GetSampleContentPage();
+            MainPage = new BaseControlPage();
         }
 
         protected override void OnStart()
