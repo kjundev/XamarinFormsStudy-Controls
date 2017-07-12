@@ -12,7 +12,8 @@ namespace XamarinFormsStudy
         public App()
         {
             InitializeComponent();
-            MainPage = new BaseControlPage();
+            
+            MainPage = new WebPickerPage();
         }
 
         protected override void OnStart()

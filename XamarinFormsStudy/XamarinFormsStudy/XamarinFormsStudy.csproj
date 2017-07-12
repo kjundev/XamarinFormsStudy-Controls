@@ -97,6 +97,9 @@
     <Compile Include="OxyPlotPage.xaml.cs">
       <DependentUpon>OxyPlotPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="WebPickerPage.xaml.cs">
+      <DependentUpon>WebPickerPage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="MainPage.xaml">
@@ -244,6 +247,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="BaseControlPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="WebPickerPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
