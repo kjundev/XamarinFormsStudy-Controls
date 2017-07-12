@@ -18,12 +18,15 @@ namespace XamarinFormsStudy
         {
             InitializeComponent();
 
+            this.Padding = new Thickness(10, Device.OnPlatform(40, 20, 20), 10, 5);
+
             isActiveWindow = true;
             Device.StartTimer(TimeSpan.FromSeconds(0.1), TimerCallback);
         }
 
         private void Button_Clicked(object sender, EventArgs e)
         {
+            // 버튼 클릭시 숫자를 증가하여 표시해줍니다.
             int i = buttonclick++;
             this.entry.Text = i.ToString();
             this.editor.Text += i.ToString() + Environment.NewLine;
@@ -36,14 +39,16 @@ namespace XamarinFormsStudy
 
         private void searchBar_SearchButtonPressed(object sender, EventArgs e)
         {
+            // 확인 팝업을 호출합니다.
             DisplayAlert("SearchBar",this.searchBar.Text + " Search...", "O", "X");
         }
+
+        
         //protected override void OnStart()
         //{
         //    isActiveWindow = true;
         //    Device.StartTimer(TimeSpan.FromSeconds(0.1), TimerCallback);
         //}
-
 
         //protected override void OnSleep()
         //{

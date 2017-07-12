@@ -4,13 +4,18 @@
              x:Class="XamarinFormsStudy.BaseControlPage">
     <ContentPage.Content>
         <StackLayout>
-            <ProgressBar x:Name="progressBar"/>
-            <ActivityIndicator x:Name="activityIndicator" Color ="#80000000" IsRunning="True"/>
             <Label Text="label" />
-            <SearchBar x:Name="searchBar" SearchButtonPressed="searchBar_SearchButtonPressed" />
+            <Label Text="ProgressBar" />
+            <ProgressBar x:Name="progressBar"/>
+            <Label Text="ActivityIndicator" />
+            <ActivityIndicator x:Name="activityIndicator" Color ="#80000000" IsRunning="True"/>
+            <SearchBar x:Name="searchBar" SearchButtonPressed="searchBar_SearchButtonPressed" Text="SearchBar"/>
+            <BoxView Color="Green" />
+            <Label Text="DatePicker" />
+            <DatePicker Format="D" />
             <Button Text="button" Clicked="Button_Clicked"/>
-            <Entry x:Name="entry" BackgroundColor="AliceBlue"/>
-            <Editor x:Name="editor" VerticalOptions="FillAndExpand" BackgroundColor="AliceBlue"/>
+            <Entry x:Name="entry" BackgroundColor="AliceBlue" Text="Entry"/>
+            <Editor x:Name="editor" VerticalOptions="FillAndExpand" BackgroundColor="AliceBlue" Text="Editor"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
