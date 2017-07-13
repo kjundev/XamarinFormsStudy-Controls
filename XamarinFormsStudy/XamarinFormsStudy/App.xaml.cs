@@ -13,7 +13,7 @@ namespace XamarinFormsStudy
         {
             InitializeComponent();
             
-            MainPage = new WebPickerPage();
+            MainPage = new SfDataGridPage();
         }
 
         protected override void OnStart()

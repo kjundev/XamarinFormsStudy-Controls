@@ -60,6 +60,7 @@ namespace XamarinFormsStudy.UWP
 
                 Xamarin.Forms.Forms.Init(e);
                 OxyPlot.Xamarin.Forms.Platform.UWP.PlotViewRenderer.Init();
+                Syncfusion.SfDataGrid.XForms.UWP.SfDataGridRenderer.Init();
 
                 if (e.PreviousExecutionState == ApplicationExecutionState.Terminated)
                 {

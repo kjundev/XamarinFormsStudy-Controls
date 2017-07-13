@@ -24,6 +24,8 @@ namespace XamarinFormsStudy.iOS
         {
             global::Xamarin.Forms.Forms.Init();
             OxyPlot.Xamarin.Forms.Platform.iOS.PlotViewRenderer.Init();
+            Syncfusion.SfDataGrid.XForms.iOS.SfDataGridRenderer.Init();
+
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

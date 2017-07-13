@@ -4,6 +4,7 @@
     "OxyPlot.Xamarin.Forms": "1.0.0",
     "Plugin.SQLite": "1.0.4",
     "SQLite.Net-PCL": "3.1.1",
+    "Syncfusion.Xamarin.SfDataGrid": "15.2.0.46",
     "Xamarin.Forms": "2.3.4.247"
   },
   "frameworks": {
