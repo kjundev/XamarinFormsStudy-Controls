@@ -24,7 +24,7 @@ namespace XamarinFormsStudy
             this.picker.Items.Add("Hard");
 
 
-            this.webView.Source = new UrlWebViewSource { Url = "http://m.naver.com" };
+            //this.webView.Source = new UrlWebViewSource { Url = "http://m.naver.com" };
         }
 
         private void picker_SelectedIndexChanged(object sender, EventArgs e)
