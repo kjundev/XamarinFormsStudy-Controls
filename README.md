@@ -1,4 +1,4 @@
-# XamarinForms
+# XamarinForms Controls
 How to use Xamarin.Forms Control
 ![1](https://user-images.githubusercontent.com/19516121/35280497-d23e2e5c-0093-11e8-9a35-d8b3ace2b28d.JPG)
 ![2](https://user-images.githubusercontent.com/19516121/35280499-d266a134-0093-11e8-84a4-3c5b92a81eb9.JPG)
